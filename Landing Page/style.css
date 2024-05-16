@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(10, 16, 30);
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.d-text {
+    color: rgb(255, 193, 0);
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 2rem;
+}
+
+#main-area {
+    background: url("") no-repeat center center/cover;
+    height: 65vh;
+    width: auto;
+}
+.profile-picture{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 193, 0);
+    margin-top: 100px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+#about-area {
+    height: 35vh;
+    width: auto;
+}
+
