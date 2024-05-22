@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Helvetica", 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -27,22 +27,94 @@ body {
 }
 
 #main-area {
-    background: url("") no-repeat center center/cover;
-    height: 65vh;
+    background: url("Assets/images/main-image.jpg") no-repeat center center/cover;
+    height: 100vh;
     width: auto;
+    justify-content: center !important;
 }
-.profile-picture{
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    border: 5px solid rgb(255, 193, 0);
+
+.container1 {
+    height: auto;
+    width: 100vh;
+    justify-content: center;
+
+}
+
+#profile-picture {
     margin-top: 100px;
-    margin-left: 100px;
+    height: 200px;
+    width: 200px;
+    border-color: brown;
+}
+
+.text-area {
+    color: white;
     align-items: center;
+    padding-top: 10px;
 }
 
 #about-area {
-    height: 35vh;
+    height: 100vh;
     width: auto;
 }
 
+section {
+    height: 100vh;
+    width: auto;
+}
+
+.fa-brands {
+    color: white !important;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 3px;
+    border-color: white;
+}
+
+.head {
+    color: rgb(255, 193, 0);
+}
+
+
+.img-fluid {
+    height: auto;
+    width: 65vh;
+}
+
+.greeting {
+    color: white;
+}
+
+.role {
+    color: rgb(255, 193, 0);
+}
+
+.text {
+    color: grey;
+}
+
+.card-area {
+    padding: 5em;
+}
+
+.card-img {
+    transition: all 0.4s ease;
+    border: 1px solid #232935;
+    background-color: #101624;
+    color: white;
+    border-radius: 1px;
+    height: auto;
+    width: 50%;
+}
+
+.card {
+    border: 1px solid #232935;
+    background-color: #101624;
+    justify-content: center;
+    /*padding-bottom: 2em;*/
+}
+
+.card-body {
+    color: white;
+}
