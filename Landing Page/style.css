@@ -118,3 +118,26 @@ section {
 .card-body {
     color: white;
 }
+
+.progress {
+    height: 5px;
+    width: 100%;
+}
+
+.lable {
+    justify-content: space-between;
+}
+
+/*Animation*/
+.skill-area {
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-name: fadeInLeft;
+}
+.progress-bar{
+    background-color: rgb(255, 193, 0) ;
+}
+svg {
+    vertical-align: middle;
+    overflow: hidden;
+}
