@@ -27,7 +27,7 @@ body {
 }
 
 #main-area {
-    background: url("Assets/images/main-image.jpg") no-repeat center center/cover;
+    background: url("../Assets/images/main-image.jpg") no-repeat center center/cover;
     height: 100vh;
     width: auto;
     justify-content: center !important;
@@ -134,10 +134,89 @@ section {
     animation-delay: 0.5s;
     animation-name: fadeInLeft;
 }
-.progress-bar{
-    background-color: rgb(255, 193, 0) ;
+
+.progress-bar {
+    background-color: rgb(255, 193, 0);
 }
+
 svg {
     vertical-align: middle;
     overflow: hidden;
 }
+
+/**/
+
+/*.container {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    padding: 50px;*/
+/*}*/
+/*.col {*/
+/*    width: 50%;*/
+/*    padding: 20px;*/
+/*    position: relative;*/
+/*}*/
+.header {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.resume-timeline {
+    position: relative;
+    margin-left: 50px; /* Adjust this to position the timeline correctly */
+}
+
+.resume-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 9px; /* Center the line with the dot */
+    width: 2px;
+    background: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.resume-timeline-dot {
+    position: absolute;
+    top: 20px; /* Center the dot vertically */
+    left: 0; /* Center the dot on the vertical line */
+    width: 18px;
+    height: 18px;
+    background-color: #fbbd08;
+    border-radius: 50%;
+    border: 2px solid #1a1a1a; /* Border to match the background */
+}
+
+.resume-timeline-content {
+    padding-left: 40px; /* Space between the line and content */
+}
+
+.resume-timeline-title {
+    font-size: 1.5em;
+    color: #fbbd08;
+}
+
+.resume-timeline-sub-title {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.resume-timeline-sub-title {
+    font-size: 0.9em;
+    color: #b8b8b8;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 10px solid #232935
+}
+
+.icon-img {
+    margin-right: 10px;
+}
+
