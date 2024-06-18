@@ -66,32 +66,22 @@ body {
     height: 100vh;
     width: auto;
 }
+
 #services-area {
     height: 100vh;
     width: auto;
 }
+
 #resume-area {
     height: 100vh;
     width: auto;
 }
+
 #my-skills {
     height: 60vh;
     width: auto;
 }
 
-/*section {*/
-/*    height: 100vh;*/
-/*    width: auto;*/
-/*}*/
-
-.fa-brands {
-    color: white !important;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 2rem;
-    border-radius: 3px;
-    border-color: white;
-}
 
 .head {
     color: rgb(255, 193, 0);
@@ -239,4 +229,117 @@ svg {
     border-radius: 50%;
     border: 1px solid #232935;
     margin: 10px;
+}
+
+/*footer-area*/
+.footer {
+    --background-color: #101624;
+    --default-color: #fff;
+    color: #ffffff;
+    background-color: #101624;
+    font-size: 14px;
+    padding: 40px 0;
+    position: relative;
+}
+
+.footer .copyright p {
+    margin-bottom: 0;
+}
+
+.footer .social-links {
+    margin-top: 20px;
+}
+
+.footer .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid color-mix(in srgb, #232935, transparent 30%);
+    font-size: 16px;
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    margin: 0 5px;
+    transition: 0.3s;
+}
+
+.footer .social-links a:hover {
+    color: var(--default-color);
+    border-color: var(--default-color);
+}
+
+.footer .credits {
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.footer .credits a {
+    color: color-mix(in srgb, #ffffff, transparent 30%);
+}
+
+/*contact info section*/
+.contact-info .contact-info-wrap {
+    box-shadow: 0 0 20px color-mix(in srgb, var(--default-color), transparent 90%);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+/*contact info section*/
+.contact-info .single-contact-info i {
+    font-size: 20px;
+    color: #1a1a1a;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+    border: 1px solid color-mix(in srgb, #1a1a1a, transparent 40%);
+    margin-right: 15px;
+}
+
+.contact-info .single-contact-info h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 2px 0;
+}
+
+.contact-info .single-contact-info p {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.contact-info .single-contact-info:hover i {
+    background: #1a1a1a;
+    color: #1a1a1a;
+}
+
+.contact-info .php-email-form {
+    box-shadow: 0px 0px 20px color-mix(in srgb, var(--default-color), transparent 90%);
+    padding: 30px;
+}
+svg{
+    color: #ffffff;
+}
+.social-links-main a:hover {
+    color: var(--default-color);
+    border-color: var(--default-color);
+    background-color: transparent;
+}
+.social-links-main a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid color-mix(in srgb, #232935, transparent 30%);
+    font-size: 16px;
+    color: color-mix(in srgb, var(--default-color), transparent 40%);
+    margin: 0 5px;
+    transition: 0.3s;
+    background-color: #ffffff;
 }
